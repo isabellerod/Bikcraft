@@ -53,3 +53,7 @@ links.forEach(ativarLink);
 parametros.forEach(ativarProduto);
 perguntas.forEach(eventosPerguntas);
 galeria.forEach(eventosGaleria);
+
+if (window.SimpleAnime){
+new SimpleAnime();
+}
